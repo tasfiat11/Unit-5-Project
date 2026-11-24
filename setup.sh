@@ -9,7 +9,10 @@ echo "Users created successfully"
 
 #Creating directories
 echo "Creating directories"
-sudo mkdir -p /home/cooljohn/homework /home/cooljohn/projects
-sudo mkdir -p /home/cooltasfia/homework /home/cooltasfia/projects
-sudo mkdir -p /home/coolhasna/homework /home/coolhasna/projects
+sudo mkdir -p /home/cooljohn/homework 
+sudo mkdir -p /home/cooltasfia/homework 
+sudo mkdir -p /home/coolhasna/homework 
+sudo mkdir -p /home/cooljohn/projects
+sudo mkdir -p /home/cooltasfia/projects
+sudo mkdir -p /home/coolhasna/projects
 echo "Directories created successfully"
