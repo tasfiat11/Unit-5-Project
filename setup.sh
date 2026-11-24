@@ -1,12 +1,15 @@
 #!/bin/bash
 
-# Username array
-usernames=("cooljohn" "cooltasfia" "coolhasna")
+# Creating three users
+echo "Creating users"
+sudo useradd -m "cooljohn"
+sudo useradd -m "cooltasfia"
+sudo useradd -m "coolhasna"
+echo "Users created successfully"
 
-# delete the users by looping through the array
-for username in "${usernames[@]}"
-do
-    sudo userdel "$username"
-done
-
-echo "Successfully deleted users"
+#Creating directories
+echo "Creating directories"
+sudo mkdir -p /home/cooljohn/homework /home/cooljohn/projects
+sudo mkdir -p /home/cooltasfia/homework /home/cooltasfia/projects
+sudo mkdir -p /home/coolhasna/homework /home/coolhasna/projects
+echo "Directories created successfully"
