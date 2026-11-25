@@ -16,3 +16,8 @@ sudo mkdir -p /home/cooljohn/projects
 sudo mkdir -p /home/cooltasfia/projects
 sudo mkdir -p /home/coolhasna/projects
 echo "Directories created successfully"
+
+# Create homework1 file
+echo "My Answers" 
+sudo touch /home/cooljohn/homework/homework1
+echo "homework1 file created successfully"
